@@ -1,0 +1,30 @@
+/*
+    ヘッダー
+*/
+nav {
+    position:relative;
+	width: 100%;
+	display: none;	
+}
+
+nav.fixed {
+	position: fixed;
+	z-index: 2;
+	left: 0;
+	top: 0;
+}
+
+#header_title{
+    margin-left:20px;
+    font-size: 1.3em;
+}
+
+/*
+    FAB
+*/
+
+#prof_btn{
+    position:absolute;    
+    right:8px;
+    bottom: 180px;   
+}
