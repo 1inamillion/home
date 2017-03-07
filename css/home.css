@@ -52,3 +52,7 @@ nav.fixed {
     color:teal !important;
     width:100%;
 }
+
+.action-with-btn {
+    padding:10px !important;
+}
