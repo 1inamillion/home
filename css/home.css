@@ -48,3 +48,8 @@ nav.fixed {
     max-width:200px;
     background-color:black;
 }
+
+.more-btn {
+    font-size:0.6em;
+    margin-top:5px;
+}
