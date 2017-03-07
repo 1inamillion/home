@@ -49,6 +49,6 @@ nav.fixed {
 }
 
 .more-btn {
-    font-size:0.7em;
-    margin-top:5px;
+    color:teal !important;
+    width:100%;
 }
