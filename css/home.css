@@ -4,7 +4,7 @@
 nav {
     position:relative;
 	width: 100%;
-	display: none;	
+	display: none;    
 }
 
 nav.fixed {
@@ -12,9 +12,10 @@ nav.fixed {
 	z-index: 2;
 	left: 0;
 	top: 0;
+    z-index: 5;
 }
 
-#header_title{
+#header_title {
     margin-left:20px;
     font-size: 1.3em;
 }
@@ -22,9 +23,32 @@ nav.fixed {
 /*
     FAB
 */
-
-#prof_btn{
+#prof_btn {
     position:absolute;    
     right:8px;
     bottom: 180px;   
+}
+
+/*
+    コンテンツ
+*/
+.contents {    
+    margin-bottom:100px;
+}
+
+.contents-icon {
+    font-size:4em;
+}
+
+.contents-title {
+    margin:50px;
+}
+
+.card .card-title {
+    font-size: 1.3em;
+}
+
+.more-btn {
+    font-size:0.7em;
+    margin-top:5px;
 }
