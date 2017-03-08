@@ -1,8 +1,8 @@
 function setHeight() {
     // ブラウザのの高さを取得 更にヘッダー分だけ縮小
     let hsize = $(window).height();
-    $(".contents-top").css("height", hsize / 2 + "px");
-    $(".contents-top").css("margin-top", hsize / 2 - 50 + "px");
+    $(".top-image").css("height", hsize + "px");
+    $(".top-image-title").css("padding-top", hsize / 2.3 + "px");
 }
 
 $(function () {
@@ -13,7 +13,7 @@ $(function () {
         draggable: true // Choose whether you can drag to open on touch screens
     });
 
-    setHeight();    
+    setHeight();
     // ウィンドウ変更時も同様の処理
     $(window).resize(function () {
         setHeight();
