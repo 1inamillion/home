@@ -6,13 +6,15 @@ function setHeight() {
 }
 
 $(function () {
+    // サイドバーのトリガー
     $('.button-collapse').sideNav({
-        menuWidth: 300, // Default is 300
-        edge: 'right', // Choose the horizontal origin
-        closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
-        draggable: true // Choose whether you can drag to open on touch screens
+        menuWidth: 300,
+        edge: 'right',
+        closeOnClick: true,
+        draggable: true
     });
 
+    //トップ画像の高さ調整
     setHeight();
     // ウィンドウ変更時も同様の処理
     $(window).resize(function () {
@@ -20,8 +22,8 @@ $(function () {
     });
 
     $(window).on("load scroll", function () {
-        //ヘッダーの高さ分(80px)スクロールするとfixedクラスを追加
-        if ($(window).scrollTop() > 100) {
+        // スクロールするとfixedクラスを追加
+        if ($(window).scrollTop() > 400) {
             $("nav").slideDown("fast");
             $(".fixed-action-btn").fadeIn("fast");
         } else {

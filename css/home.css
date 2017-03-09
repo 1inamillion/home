@@ -38,11 +38,16 @@ nav.fixed {
 
 .top-image {
     background-image: url("../img/top_bg.jpg");
-    background-size: cover;
+    background-position: top center;    
+    background-size: cover;    
+}
+
+.top-image-transparent {
+    background-color:rgba(255,255,255,0.5);    
 }
 
 .top-image-title {
-    padding-top:0px;
+    padding-top:0px;    
 }
 
 .contents-icon {
