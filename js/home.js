@@ -2,6 +2,7 @@ function setHeight() {
     // ブラウザのの高さを取得 更にヘッダー分だけ縮小
     let hsize = $(window).height();
     $(".top-image").css("height", hsize + "px");
+    $(".top-image-transparent").css("height", hsize + "px");
     $(".top-image-title").css("padding-top", hsize / 2.3 + "px");
 }
 
@@ -23,7 +24,7 @@ $(function () {
 
     $(window).on("load scroll", function () {
         // スクロールするとfixedクラスを追加
-        if ($(window).scrollTop() > 400) {
+        if ($(window).scrollTop() > 350) {
             $("nav").slideDown("fast");
             $(".fixed-action-btn").fadeIn("fast");
         } else {
