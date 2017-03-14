@@ -1,12 +1,18 @@
 
 $(function () {
-    const NEWS_POS = $(".contents-news").offset().top - 70;
-    const DISCO_POS = $(".contents-disco").offset().top - 70;
-    const CONTACT_POS = $(".contents-contact").offset().top - 70;
-    
+    var NEWS_POS = $(".contents-news").offset().top - 70;
+    var DISCO_POS = $(".contents-disco").offset().top - 70;
+    var CONTACT_POS = $(".contents-contact").offset().top - 70;
+
+    $(window).resize(function () {
+        NEWS_POS = $(".contents-news").offset().top - 70;
+        DISCO_POS = $(".contents-disco").offset().top - 70;
+        CONTACT_POS = $(".contents-contact").offset().top - 70;
+    });
+
     // サイドバーのトリガー
     $('.button-collapse').sideNav({
-        menuWidth: 300,
+        menuWidth: 320,
         edge: 'right',
         closeOnClick: true,
         draggable: true

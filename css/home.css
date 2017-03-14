@@ -155,3 +155,16 @@ nav.fixed {
     background-position: top center;    
     background-size: cover;    
 }
+
+.side-fa {
+    font-size:1.3em;
+    padding-left:46% !important;    
+}
+
+.side-about-us {
+    line-height: 25px !important;
+}
+
+.side-about-us-str {
+    margin-left:18px;
+}
