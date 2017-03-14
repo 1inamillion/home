@@ -85,8 +85,9 @@ nav.fixed {
 }
 
 .more-btn {
-    color:teal !important;
+    color:steelblue !important;
     width:100%;
+    transition:200ms;
 }
 
 .action-with-btn {
@@ -162,7 +163,7 @@ nav.fixed {
 }
 
 .side-about-us {
-    line-height: 25px !important;
+    line-height: 20px !important;
 }
 
 .side-about-us-str {
