@@ -22,6 +22,8 @@ $(function () {
         setHeight();
     });
 
+    $(".fixed-action-btn").hide();
+
     $(window).on("load scroll", function () {
         // スクロールするとfixedクラスを追加
         if ($(window).scrollTop() > 350) {
