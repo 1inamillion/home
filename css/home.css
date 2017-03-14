@@ -5,6 +5,11 @@ nav {
     position:relative;
 	width: 100%;
 	display: none;    
+    color:#fff8e1 !important;
+}
+
+nav a {
+    color: #fff8e1 !important;
 }
 
 nav.fixed {
@@ -20,34 +25,51 @@ nav.fixed {
     font-size: 1.3em;
 }
 
+
 /*
     FAB
 */
-#prof_btn {
-    position:absolute;    
-    right:8px;
-    bottom: 180px;   
+.btn-floating i{
+    color: #fff8e1 !important;
 }
 
 /*
     コンテンツ
 */
 .contents {    
-    margin-bottom:100px;
+    margin-bottom:200px;
+    margin-top:200px;
 }
 
 .top-image {
     background-image: url("../img/top_bg.jpg");
     background-position: top center;    
     background-size: cover;    
+    height:100vh;
 }
 
 .top-image-transparent {
-    background-color:rgba(0,0,0,0.5);    
+    background-color:rgba(0,0,0,0.5);
+    height:100vh;
 }
 
 .top-image-title {
-    padding-top:0px;    
+    padding-top:40vh;
+}
+
+.top-caption {
+    text-align:center;
+    font-size: 1px;
+}
+
+#title_circle {
+    background-color:#fff8e1 !important;
+    width:40px;
+    height:40px;
+    padding:0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:100px;
 }
 
 .contents-icon {
@@ -69,6 +91,41 @@ nav.fixed {
 
 .action-with-btn {
     padding:10px !important;
+}
+
+.disco-head {
+    font-size:.5em;
+}
+
+.disco-foot {
+    font-size:.5em;
+    margin-top:10px;
+}
+
+.disco-album-title {
+    margin-bottom:10px;
+    margin-top:10px;
+    font-size:.7em;
+}
+
+.disco-tracks {
+    font-size:.5em;
+}
+
+.contents-disco {
+    font-size:calc(100% + 0.6vw);
+    
+}
+
+#buy_btn {
+    width:100%;
+}
+
+.disco-img {
+    max-width: 350px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
 }
 
 /*
