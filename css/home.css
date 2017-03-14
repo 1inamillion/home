@@ -117,14 +117,19 @@ nav.fixed {
     
 }
 
-#buy_btn {
+#ts_btn, #du_btn {    
     width:100%;
+    margin-top:5px;
+}
+
+#ts_btn i, #du_btn i {    
+    font-size: 0.8em;
 }
 
 .disco-img {
-    max-width: 350px;
+    max-width: 250px;
     margin-left:auto;
-    margin-right:auto;
+    margin-right:0px;
     margin-top:20px;
 }
 
