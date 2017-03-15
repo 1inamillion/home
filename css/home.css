@@ -152,7 +152,7 @@ nav.fixed {
     width:64px;
     height:64px;
     border-radius:50px;
-    background-image:url("https://www.pakutaso.com/shared/img/thumb/BO15103041151030415133_TP_V.jpg");
+    background-image:url("https://www.pakutaso.com/shared/img/thumb/ISG106114107_TP_V.jpg");
     background-position: top center;    
     background-size: cover;    
 }
@@ -166,6 +166,6 @@ nav.fixed {
     line-height: 20px !important;
 }
 
-.side-about-us-str {
-    margin-left:18px;
+.side-about-us-year {
+    font-weight: 800;
 }
